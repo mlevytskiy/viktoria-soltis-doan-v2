@@ -1,0 +1,22 @@
+/* 
+основний колір тексту
+колір тексту параграфів
+колір наведення-акценту
+білий #FFFFFF
+колір заливки подложки на головній сторінці - rgb(202,154,155)
+шрифт на HEADER
+"The word of" - Caveat
+"Victoria Soltis-Doan" - Dancing Script
+"Author and illustrator of children's books" - Permanent Marker
+Montserrat
+Roboto
+*/
+
+:root {
+  --text-color-primary: #000000;
+
+  --background-color: #ffffff;
+
+  --animation-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

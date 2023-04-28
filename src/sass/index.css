@@ -150,14 +150,50 @@ img {
   }
 }
 
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 2px solid rgb(80, 206, 66);
+  outline-offset: -2px;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
 .header__container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
   gap: 20px;
-  padding: 10px 15px;
-  background-color: #ffffff;
+}
+@media screen and (min-width: 480px) {
+  .header__container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__container {
+    padding-right: 100px;
+    gap: 40px;
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__container {
+    padding-right: 160px;
+    gap: 140px;
+    width: 1200px;
+  }
 }
 
 .header-text {
@@ -166,42 +202,97 @@ img {
   align-items: center;
   justify-content: center;
 }
+@media screen and (min-width: 768px) {
+  .header-text {
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-text {
+    gap: 50px;
+  }
+}
 
 .header-text__text {
   font-family: "Caveat", Verdana, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.25;
-  color: rgb(21, 86, 82);
+  letter-spacing: 0.05em;
+  color: #053a31;
+  opacity: 0.8;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .header-text__text {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-text__text {
+    font-size: 36px;
+    line-height: 1.25;
+  }
 }
 
 .header-text__name {
-  font-family: "Dancing Script", Verdana, sans-serif;
+  font-family: "Atma", Verdana, sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 1.2;
-  color: rgb(124, 54, 135);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.1875;
   text-align: center;
-  transition: 250ms linear;
+  color: #8635a4;
+  transition: var(--animation-base);
 }
 .header-text__name:hover, .header-text__name:focus {
   color: rgb(92, 52, 98);
   transform: scale(1.05);
+}
+@media screen and (min-width: 768px) {
+  .header-text__name {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-text__name {
+    font-size: 48px;
+  }
 }
 
 .header-text__description {
   font-family: "Permanent Marker", Verdana, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
-  line-height: 1.625;
+  font-size: 11px;
+  line-height: 1.4545454545;
   text-align: center;
-  color: rgb(21, 86, 82);
+  color: #835a4a;
+}
+@media screen and (min-width: 768px) {
+  .header-text__description {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-text__description {
+    font-size: 16px;
+  }
 }
 
 .header-img {
-  width: 50px;
+  width: 75px;
+}
+@media screen and (min-width: 768px) {
+  .header-img {
+    width: 70px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-img {
+    width: 100px;
+  }
 }/*# sourceMappingURL=index.css.map */

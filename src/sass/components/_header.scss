@@ -64,7 +64,7 @@
   line-height: calc(25 / 20);
   letter-spacing: 0.05em;
 
-  color: #053a31;
+  color: var(--text-header-text-color);
   opacity: 0.8;
 
   text-align: center;
@@ -89,13 +89,13 @@
 
   text-align: center;
 
-  color: #8635a4;
+  color: var(--text-header-name-color);
 
   transition: var(--animation-base);
 
   &:hover,
   &:focus {
-    color: rgb(92, 52, 98);
+    color: var(--text-header-name-color-accent);
     transform: scale(1.05);
   }
 
@@ -117,7 +117,7 @@
 
   text-align: center;
 
-  color: #835a4a;
+  color: var(--text-header-description-color);
 
   @media screen and (min-width: 768px) {
     font-size: 13px;

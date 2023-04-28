@@ -6,14 +6,22 @@
 білий #FFFFFF
 колір заливки подложки на головній сторінці - rgb(202,154,155)
 шрифт на HEADER
-"The word of" - Caveat
-"Victoria Soltis-Doan" - Dancing Script
+"The word of" - Caveat  color: #053a31
+"Victoria Soltis-Doan" - Dancing Script color: #8635a4
 "Author and illustrator of children's books" - Permanent Marker
 Montserrat
 Roboto
 */
 :root {
   --text-color-primary: #000000;
+  --text-header-text-color: #053a31;
+  --text-header-name-color: #8635a4;
+  --text-header-name-color-accent: rgb(92, 52, 98);
+  --text-header-description-color: #835a4a;
+  --text-footer-nav-color: #8635a4;
+  --border-footer-style: 1px solid rgb(146, 132, 132);
+  --icon-socials-footer-fill: rgb(128, 128, 128);
+  --icon-socials-footer-fill-accent: blue;
   --background-color: #ffffff;
   --animation-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --animation-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -82,7 +90,7 @@ a:focus,
 a:hover,
 a:active,
 a:visited {
-  /* color: inherit; */
+  color: inherit;
   text-decoration: none;
 }
 
@@ -221,7 +229,7 @@ img {
   font-size: 20px;
   line-height: 1.25;
   letter-spacing: 0.05em;
-  color: #053a31;
+  color: var(--text-header-text-color);
   opacity: 0.8;
   text-align: center;
 }
@@ -245,11 +253,11 @@ img {
   font-size: 32px;
   line-height: 1.1875;
   text-align: center;
-  color: #8635a4;
+  color: var(--text-header-name-color);
   transition: var(--animation-base);
 }
 .header-text__name:hover, .header-text__name:focus {
-  color: rgb(92, 52, 98);
+  color: var(--text-header-name-color-accent);
   transform: scale(1.05);
 }
 @media screen and (min-width: 768px) {
@@ -270,7 +278,7 @@ img {
   font-size: 11px;
   line-height: 1.4545454545;
   text-align: center;
-  color: #835a4a;
+  color: var(--text-header-description-color);
 }
 @media screen and (min-width: 768px) {
   .header-text__description {
@@ -294,5 +302,184 @@ img {
 @media screen and (min-width: 1200px) {
   .header-img {
     width: 100px;
+  }
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  outline: 2px solid rgb(80, 206, 66);
+  outline-offset: -2px;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.footer__nav {
+  display: block;
+  padding-bottom: 20px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .footer__nav {
+    padding-bottom: 10px;
+  }
+}
+
+.footer__nav-list {
+  display: inline-block;
+}
+@media screen and (min-width: 768px) {
+  .footer__nav-list {
+    display: grid;
+    max-width: 720px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 50px);
+    grid-row-gap: 15px;
+    grid-column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__nav-list {
+    max-width: 1000px;
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+  }
+}
+
+.footer__nav-item {
+  font-family: "Caveat", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--text-footer-nav-color);
+  transition: var(--animation-base);
+}
+.footer__nav-item:hover, .footer__nav-item:focus {
+  transform: scale(1.15);
+}
+@media screen and (min-width: 768px) {
+  .footer__nav-item {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__nav-item {
+    font-size: 40px;
+  }
+}
+
+.footer__socials {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: var(--border-footer-style);
+  border-bottom: var(--border-footer-style);
+}
+@media screen and (min-width: 768px) {
+  .footer__socials {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.footer__socials-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  .footer__socials-list {
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__socials-list {
+    gap: 50px;
+  }
+}
+
+.footer__socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: yellow;
+  /* color: grey; */
+  transition: var(--animation-base);
+}
+.footer__socials-link:hover, .footer__socials-link:focus {
+  transform: scale(1.28);
+}
+
+.footer__socials-icon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: var(--icon-socials-footer-fill);
+}
+.footer__socials-icon:hover, .footer__socials-icon:focus {
+  fill: var(--icon-socials-footer-fill-accent);
+}
+
+.footer__copyright {
+  padding: 20px 20px 10px 20px;
+}
+@media screen and (min-width: 768px) {
+  .footer__copyright {
+    margin-top: 32px;
+    padding: 12px 12px;
+  }
+}
+@media screen and (min-width: 1200) {
+  .footer__copyright {
+    margin-top: 60px;
+  }
+}
+
+.footer__copyright-text {
+  display: block;
+  font-family: "Roboto", Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: rgb(146, 132, 132);
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .footer__copyright-text {
+    font-size: 18px;
+    line-height: 1.8571428571;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__copyright-text {
+    font-size: 20px;
+    line-height: 1.8333333333;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer__br {
+    display: none;
   }
 }/*# sourceMappingURL=index.css.map */

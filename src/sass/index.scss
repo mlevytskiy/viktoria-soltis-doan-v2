@@ -10,6 +10,12 @@
 @import './base/section';
 @import './base/container';
 
-// sections style
-@import './header';
-// @import './footer';
+// components style
+@import './components/header';
+@import './components/footer';
+@import './components/footer-nav';
+@import './components/footer-socials';
+@import './components/footer-copyright';
+
+// 2nd pages style
+@import '../sass/pages/pages';

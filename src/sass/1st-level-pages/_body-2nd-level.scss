@@ -33,6 +33,11 @@
   letter-spacing: 0.03em;
 
   text-align: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+  // @media screen and (min-width: 1200px) {}
 }
 
 .books-page__text {
@@ -45,6 +50,11 @@
 
   text-align: center;
   margin-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+  }
+  // @media screen and (min-width: 1200px) {}
 
   /* width: 100%; */
 

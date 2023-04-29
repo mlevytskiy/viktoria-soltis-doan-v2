@@ -13,17 +13,17 @@ function createListItem(books) {
   return books
     .map(
       ({ title, description, bookPage, bookImage, alt }) =>
-        `<li class="book__item">
+        `<li class="books__item">
           <a class="link" href="${bookPage}">
-            <div class="book__card">
-              <div class="book__card-cover">
-                <img class="book__card-cover-image" src='${bookImage}' alt="${alt}" width="250" height="250"  loading="lazy">
+            <div class="books__card">
+              <div class="books__card-cover">
+                <img class="books__card-cover-image" src='${bookImage}' alt="${alt}" width="250" height="250"  loading="lazy">
               </div>
-              <div class="book__card-caption">
-                <h3 class="book__card-title">
+              <div class="books__card-caption">
+                <h3 class="books__card-title">
                   ${title}
                 </h3>
-                <p class="book__card-text">
+                <p class="books__card-text">
                   ${description}
                 </p>
               </div>

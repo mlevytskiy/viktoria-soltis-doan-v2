@@ -3,7 +3,7 @@
 // @media screen and (min-width: 768px) {}
 // @media screen and (min-width: 1200px) {}
 
-.book__item {
+.books__item {
   overflow: hidden;
   max-width: 360px;
 
@@ -33,21 +33,21 @@
   }
 }
 
-.book__card {
+.books__card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
 
-.book__card-cover {
+.books__card-cover {
   flex: 1;
 
   display: flex;
   align-items: center;
 }
 
-.book__card-cover-image {
+.books__card-cover-image {
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: auto;
@@ -59,7 +59,7 @@
   outline: 1px solid var(--book-item-border-color);
 }
 
-.book__card-caption {
+.books__card-caption {
   align-self: flex-end;
   padding-top: 10px;
   padding-right: 20px;
@@ -71,7 +71,7 @@
   background: var(--books-caption-bcg);
 }
 
-.book__card-title {
+.books__card-title {
   font-family: 'Montserrat', Verdana, sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -87,6 +87,11 @@
 
   transition: var(--animation-base);
 
+  @media screen and (min-width: 768px) {
+    font-size: 19px;
+  }
+  // @media screen and (min-width: 1200px) {}
+
   &:hover,
   &:focus {
     /* transform: scale(1.05); */
@@ -96,12 +101,17 @@
   }
 }
 
-.book__card-text {
-  font-family: 'Roboto', Verdana, sans-serif;
+.books__card-text {
+  // font-family: 'Roboto', Verdana, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(26 / 16);
   color: var(--text-color-primary);
 
   width: 100%;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+  // @media screen and (min-width: 1200px) {}
 }

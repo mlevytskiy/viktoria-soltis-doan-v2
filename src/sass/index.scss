@@ -17,8 +17,10 @@
 @import './components/footer-socials';
 @import './components/footer-copyright';
 
-// 1st page style (main body)
-@import './pages/main-body';
+// 1st level-page (main) style -->> body
+@import './1st-level-pages/body-1st-level';
 
-// 2nd pages style
-// @import '../sass/pages/pages';
+// 2st level-page style -->> body
+@import './1st-level-pages/body-2nd-level';
+
+@import './1st-level-pages/book-card';

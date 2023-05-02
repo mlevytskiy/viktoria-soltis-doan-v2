@@ -5,7 +5,7 @@
 
 .books__item {
   overflow: hidden;
-  max-width: 360px;
+  width: 350px;
 
   background: var(--books-item-bcg);
 
@@ -26,10 +26,10 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: 354px;
+    width: 335px;
   }
   @media screen and (min-width: 1200px) {
-    width: 370px;
+    width: 380px;
   }
 }
 

@@ -17,7 +17,7 @@ function createListItem(books) {
           <a class="link" href="${bookPage}">
             <div class="books__card">
               <div class="books__card-cover">
-                <img class="books__card-cover-image" src='${bookImage}' alt="${alt}" width="250" height="250"  loading="lazy">
+                <img class="books__card-cover-image" src="${bookImage}" alt="${alt}" width="250" height="250"  loading="lazy">
               </div>
               <div class="books__card-caption">
                 <h3 class="books__card-title">

@@ -18,9 +18,11 @@
 @import './components/footer-copyright';
 
 // 1st level-page (main) style -->> body
-@import './1st-level-pages/body-1st-level';
+@import './body-1st-level';
 
 // 2st level-page style -->> body
-@import './1st-level-pages/body-2nd-level-books';
+@import './body-2nd-level-books';
+@import './books-card';
 
-@import './1st-level-pages/books-card';
+// 3th level-page style -->> body
+@import './3th-level-pages/books-pages';

@@ -4,11 +4,13 @@
 
 .footer__nav {
   display: block;
+  padding-top: 10px;
   padding-bottom: 20px;
 
   text-align: center;
 
   @media screen and (min-width: 768px) {
+    padding-top: 5px;
     padding-bottom: 10px;
   }
 }

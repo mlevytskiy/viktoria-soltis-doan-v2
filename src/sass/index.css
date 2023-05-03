@@ -912,10 +912,17 @@ img {
 
 .about-me__socials {
   max-width: 250px;
-  padding: 20px 50px;
   margin-right: auto;
   margin-left: auto;
   background-color: rgb(105, 203, 230);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.about-me__socials:hover, .about-me__socials:focus {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.about-me__socials-link {
+  padding: 20px 50px;
 }
 
 .about-me__socials-title {

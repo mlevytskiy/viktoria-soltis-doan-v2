@@ -1,1 +1,1 @@
-import './js/footer-short.js';
+import './js/footer-short-1st';

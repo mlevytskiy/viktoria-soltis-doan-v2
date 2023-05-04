@@ -141,8 +141,6 @@ img {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
-  outline-offset: -2px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -847,6 +845,15 @@ img {
     margin-right: auto;
   }
 }
+@media screen and (min-width: 1200px) {
+  .about-me__container {
+    max-width: 1100px;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(21, 45px);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+  }
+}
 
 .about-me__img {
   margin-bottom: 20px;
@@ -860,6 +867,14 @@ img {
     margin-bottom: 0px;
     grid-column: 1/8;
     grid-row: 1/9;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-me__img {
+    width: 280px;
+    transform: rotate(-6deg);
+    grid-column: 1/10;
+    grid-row: 2/11;
   }
 }
 
@@ -877,12 +892,29 @@ img {
     grid-row: 1/9;
   }
 }
+@media screen and (min-width: 1200px) {
+  .about-me__description {
+    max-width: 600px;
+    grid-column: 11/26;
+    grid-row: 1/10;
+  }
+}
 
 .about-me__description-greeting {
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
   margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .about-me__description-greeting {
+    font-style: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-me__description-greeting {
+    font-style: 24px;
+  }
 }
 
 .about-me__description-text {
@@ -893,6 +925,11 @@ img {
 @media screen and (min-width: 768px) {
   .about-me__description-text {
     font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-me__description-text {
+    font-size: 20px;
   }
 }
 
@@ -907,6 +944,12 @@ img {
     margin-bottom: 0px;
     grid-column: 12/21;
     grid-row: 12/15;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-me__img-facts {
+    grid-column: 12/19;
+    grid-row: 11/14;
   }
 }
 
@@ -925,6 +968,12 @@ img {
     grid-row: 12/15;
   }
 }
+@media screen and (min-width: 1200px) {
+  .about-me__facts {
+    grid-column: 1/11;
+    grid-row: 13/19;
+  }
+}
 
 .about-me__facts-title {
   font-family: "Acme", Verdana, sans-serif;
@@ -939,11 +988,26 @@ img {
   margin-bottom: 30px;
   color: #36c25d;
 }
+@media screen and (min-width: 1200px) {
+  .about-me__facts-title {
+    font-size: 24px;
+  }
+}
 
 .about-me__facts-text {
   font-size: 16px;
   line-height: 1.1875;
   margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .about-me__facts-text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-me__facts-text {
+    font-size: 20px;
+  }
 }
 
 .about-me__facts-list {
@@ -961,6 +1025,11 @@ img {
     font-size: 14px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .about-me__facts-item {
+    font-size: 20px;
+  }
+}
 
 .about-me__img-thumb {
   margin-bottom: 50px;
@@ -973,6 +1042,13 @@ img {
     margin-bottom: 0px;
     grid-column: 9/14;
     grid-row: 18/21;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-me__img-thumb {
+    width: 380px;
+    grid-column: 15/26;
+    grid-row: 15/21;
   }
 }
 
@@ -992,6 +1068,12 @@ img {
   .about-me__socials-link {
     grid-column: 7/16;
     grid-row: 21/23;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-me__socials-link {
+    grid-column: 10/17;
+    grid-row: 22/22;
   }
 }
 

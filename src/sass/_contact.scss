@@ -12,9 +12,6 @@
   );
 }
 
-.section {
-}
-
 .contact__container {
   display: flex;
   flex-direction: column;
@@ -23,10 +20,6 @@
   gap: 30px;
 }
 
-.container {
-}
-.visually-hidden {
-}
 .contact__title {
   font-family: 'Montserrat', Verdana, sans-serif;
   font-weight: 700;
@@ -53,7 +46,7 @@
   width: 100%;
 
   @media screen and (min-width: 768px) {
-    width: 80%;
+    width: 85%;
     font-size: 20px;
   }
   @media screen and (min-width: 1200px) {

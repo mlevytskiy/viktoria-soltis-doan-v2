@@ -30,7 +30,7 @@ function onFormBtnSubmit(e) {
 
   Email.send({
     SecureToken: '5d022fc2-bc33-4252-bae5-97f2ad695e11',
-    To: 'mmmdems.omp@gmail.com',
+    To: 'torisolt@gmail.com',
     From: 'mmmdems.omp@gmail.com',
     Subject: 'Soltys. TEST - ' + emailEl.value,
     Body: ebody,

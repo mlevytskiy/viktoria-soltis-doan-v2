@@ -4,7 +4,7 @@ const commentEl = document.getElementById('user_message');
 
 const formBtnEl = document.getElementsByClassName('js-form')[0];
 
-// console.log(nameEl);
+// console.dir(nameEl);
 // console.log(emailEl);
 // console.log(commentEl);
 // console.log(formBtnEl);
@@ -15,6 +15,7 @@ function onFormBtnSubmit(e) {
   e.preventDefault();
   console.log('HeLLoW click');
 
+  // тіло листа на пошту
   let ebody = `
      <b>Somebody was on your site </b> 😉
       <br>
@@ -34,6 +35,11 @@ function onFormBtnSubmit(e) {
     Subject: 'Soltys. TEST - ' + emailEl.value,
     Body: ebody,
   }).then(message => alert(message));
+
+  // очистка форми
+  nameEl.value = '';
+  emailEl.value = '';
+  commentEl.value = '';
 }
 
 // Альтернативний код
@@ -60,4 +66,8 @@ function onFormBtnSubmit(e) {
 //     Subject: 'Soltys. TEST - ' + emailEl.value,
 //     Body: ebody,
 //   }).then(message => alert(message));
+
+//     nameEl.value = '';
+//     emailEl.value = '';
+//     commentEl.value = '';
 // });

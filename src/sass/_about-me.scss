@@ -76,18 +76,19 @@
   }
 }
 .about-me__description-greeting {
-  font-size: 20px;
+  font-family: 'Caveat', Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
   line-height: calc(23 / 20);
   text-align: center;
 
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 
-  @media screen and (min-width: 768px) {
-    font-style: 18px;
-  }
+  color: #36c25d;
 
   @media screen and (min-width: 1200px) {
-    font-style: 24px;
+    font-size: 40px;
   }
 }
 .about-me__description-text {
@@ -119,8 +120,8 @@
   }
 
   @media screen and (min-width: 1200px) {
-    grid-column: 12 / 19;
-    grid-row: 11 / 14;
+    grid-column: 12 / 20;
+    grid-row: 12 / 15;
   }
 }
 
@@ -135,7 +136,6 @@
   border-radius: 20px;
 
   @media screen and (min-width: 768px) {
-    // max-width: 480px;
     margin-bottom: 0px;
 
     grid-column: 1 / 12;
@@ -149,22 +149,21 @@
 }
 
 .about-me__facts-title {
-  font-family: 'Acme', Verdana, sans-serif;
+  font-family: 'Caveat', Verdana, sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: calc(41 / 32);
-
+  font-weight: 500;
+  font-size: 30px;
+  line-height: calc(23 / 20);
   text-align: center;
-  text-decoration-line: underline;
+
   text-transform: uppercase;
 
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 
   color: #36c25d;
 
   @media screen and (min-width: 1200px) {
-    font-size: 24px;
+    font-size: 40px;
   }
 }
 
@@ -188,8 +187,6 @@
   margin-left: -20px;
 }
 
-// .list {
-// }
 .about-me__facts-item {
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -211,17 +208,17 @@
   margin-left: auto;
 
   @media screen and (min-width: 768px) {
-    width: 240px;
+    width: 200px;
     margin-bottom: 0px;
 
-    grid-column: 9 / 14;
-    grid-row: 18 / 21;
+    grid-column: 09 / 16;
+    grid-row: 17 / 22;
   }
 
   @media screen and (min-width: 1200px) {
-    width: 380px;
-    grid-column: 15 / 26;
-    grid-row: 15 / 21;
+    width: 330px;
+    grid-column: 18 / 26;
+    grid-row: 16 / 22;
   }
 }
 
@@ -242,8 +239,6 @@
   }
 
   @media screen and (min-width: 768px) {
-    // margin-bottom: 0px;
-    // width: 250px;
     grid-column: 7 / 16;
     grid-row: 21 / 23;
   }
@@ -269,13 +264,15 @@
 
   color: #ffffff;
 }
+
 .about-me__socials-list {
   display: flex;
   justify-content: center;
   gap: 15px;
 }
-// .about-me__socials-item {
-// }
+
+// .about-me__socials-item {}
+
 .about-me__socials-icon {
   // width: 50px;
   fill: #ffffff;

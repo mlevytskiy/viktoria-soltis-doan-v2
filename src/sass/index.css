@@ -1092,7 +1092,7 @@ img {
 }
 
 .book-page__section {
-  background-color: rgba(241, 218, 112, 0.5019607843);
+  background-color: var(--books-page-bcg);
 }
 
 .book-page__container {

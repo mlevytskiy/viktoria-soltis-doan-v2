@@ -417,7 +417,7 @@ img {
   transition: var(--animation-base);
 }
 .footer__socials-link:hover, .footer__socials-link:focus {
-  transform: scale(1.28);
+  transform: scale(1.12);
 }
 
 .footer__socials-icon {

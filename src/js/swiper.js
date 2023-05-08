@@ -16,6 +16,9 @@ const swiper = new Swiper('.swiper', {
   speed: 800,
   spaceBetween: 100,
 
+  // Grab cursor
+  grabCursor: true,
+
   // Optional parameters
   loop: false,
 

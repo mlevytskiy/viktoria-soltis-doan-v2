@@ -8,11 +8,6 @@ import Swiper, {
   A11y,
 } from 'swiper';
 
-// Swiper.use([Navigation, Pagination]);
-
-// import Swiper styles
-// import '../../node_modules/swiper/swiper-bundle.css';
-
 // init Swiper:
 const swiper = new Swiper('.swiper', {
   // configure Swiper to use modules
@@ -22,7 +17,6 @@ const swiper = new Swiper('.swiper', {
   spaceBetween: 100,
 
   // Optional parameters
-  // direction: 'horizontal',
   loop: false,
 
   // If we need pagination
@@ -33,10 +27,10 @@ const swiper = new Swiper('.swiper', {
   },
 
   // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+  // navigation: {
+  //   nextEl: '.swiper-button-next',
+  //   prevEl: '.swiper-button-prev',
+  // },
 
   // AutoplayOptions
   autoplay: {

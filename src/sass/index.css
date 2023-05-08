@@ -1204,11 +1204,17 @@ img {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   border: 1px solid black;
   border-radius: 15px;
   width: 300px;
+  padding: 10px 5px;
   background-color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .book-page__reviews-container {
+    width: 500px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .book-page__reviews-container {
@@ -1222,6 +1228,11 @@ img {
   color: rgb(83, 75, 75);
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .book-page__reviews-title {
+    font-size: 17px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .book-page__reviews-title {
     font-size: 20px;
@@ -1232,14 +1243,19 @@ img {
   font-family: "Caveat", Verdana, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 35px;
-  line-height: 1.25;
+  font-size: 30px;
+  line-height: 1.1111111111;
   color: rgb(35, 52, 152);
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .book-page__reviews-note {
+    font-size: 33px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .book-page__reviews-note {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
@@ -1248,15 +1264,35 @@ img {
 }
 
 .book-page__reviews-text {
-  font-size: 14px;
+  font-size: 10px;
   font-style: italic;
   text-align: center;
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .book-page__reviews-text {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .book-page__reviews-text {
+    font-size: 14px;
+  }
+}
 
 .book-page__reviews-text-bold {
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .book-page__reviews-text-bold {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .book-page__reviews-text-bold {
+    font-size: 15px;
+  }
 }
 
 .contact__section {
@@ -1682,12 +1718,42 @@ img {
 }
 
 .swiper {
-  width: 560px;
-  height: 130px;
+  width: 280px;
+  height: 140px;
+}
+@media screen and (min-width: 768px) {
+  .swiper {
+    width: 460px;
+    height: 130px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .swiper {
+    width: 560px;
+    height: 140px;
+  }
 }
 
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  color: #fff;
-  font-size: 80px;
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+@media screen and (min-width: 768px) {
+  .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+  }
 }/*# sourceMappingURL=index.css.map */

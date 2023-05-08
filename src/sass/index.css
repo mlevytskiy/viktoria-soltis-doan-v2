@@ -12,6 +12,7 @@
 Montserrat
 Roboto
 */
+@import '../../node_modules/swiper/swiper-bundle.css';
 :root {
   --text-color-primary: #4f4141;
   --background-color: #ffffff;
@@ -1206,8 +1207,13 @@ img {
   gap: 20px;
   border: 1px solid black;
   border-radius: 15px;
-  max-width: 300px;
+  width: 300px;
   background-color: #ffffff;
+}
+@media screen and (min-width: 1200px) {
+  .book-page__reviews-container {
+    width: 600px;
+  }
 }
 
 .book-page__reviews-title {
@@ -1215,6 +1221,11 @@ img {
   text-align: center;
   color: rgb(83, 75, 75);
   width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .book-page__reviews-title {
+    font-size: 20px;
+  }
 }
 
 .book-page__reviews-note {
@@ -1226,12 +1237,26 @@ img {
   color: rgb(35, 52, 152);
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .book-page__reviews-note {
+    font-size: 40px;
+  }
+}
+
+.book-page__swiper-box {
+  min-width: 0;
+}
 
 .book-page__reviews-text {
   font-size: 14px;
   font-style: italic;
   text-align: center;
   width: 100%;
+}
+
+.book-page__reviews-text-bold {
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .contact__section {
@@ -1654,4 +1679,15 @@ img {
     text-align: center;
     margin-right: 60px;
   }
+}
+
+.swiper {
+  width: 560px;
+  height: 130px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #fff;
+  font-size: 80px;
 }/*# sourceMappingURL=index.css.map */

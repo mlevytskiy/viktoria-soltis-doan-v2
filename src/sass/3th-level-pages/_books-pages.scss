@@ -121,9 +121,14 @@
   border: 1px solid black;
   border-radius: 15px;
 
-  max-width: 300px;
+  width: 300px;
 
   background-color: #ffffff;
+
+  // @media screen and (min-width: 768px) {}
+  @media screen and (min-width: 1200px) {
+    width: 600px;
+  }
 }
 
 .book-page__reviews-title {
@@ -132,6 +137,11 @@
   color: rgb(83, 75, 75);
 
   width: 100%;
+
+  // @media screen and (min-width: 768px) {}
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
 }
 
 .book-page__reviews-note {
@@ -143,6 +153,15 @@
   color: rgb(35, 52, 152);
 
   text-align: center;
+
+  // @media screen and (min-width: 768px) {}
+  @media screen and (min-width: 1200px) {
+    font-size: 40px;
+  }
+}
+
+.book-page__swiper-box {
+  min-width: 0;
 }
 
 .book-page__reviews-text {
@@ -151,4 +170,9 @@
   text-align: center;
 
   width: 100%;
+}
+
+.book-page__reviews-text-bold {
+  font-size: 15px;
+  font-weight: 700;
 }

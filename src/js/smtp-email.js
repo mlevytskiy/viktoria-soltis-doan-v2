@@ -17,7 +17,7 @@ function onFormBtnSubmit(e) {
 
   // тіло листа на пошту
   let ebody = `
-     <b>Somebody was on your site </b> 😉
+     <b>Somebody was on your site and leave a comment </b> 😉
       <br>
       <br>
       <b>Name: </b>${nameEl.value}
@@ -32,7 +32,7 @@ function onFormBtnSubmit(e) {
     SecureToken: '5d022fc2-bc33-4252-bae5-97f2ad695e11',
     To: 'torisolt@gmail.com',
     From: 'mmmdems.omp@gmail.com',
-    Subject: 'Soltys. TEST - ' + emailEl.value,
+    Subject: 'site "Viktoria Soltis-Doan" => from ' + emailEl.value,
     Body: ebody,
   }).then(message => alert(message));
 

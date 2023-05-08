@@ -1491,9 +1491,23 @@ img {
   position: absolute;
   top: 25%;
   left: 20px;
+  width: 20px;
+  height: 20px;
   fill: #216fa3;
   transform: translateX(-20%);
   transition: fill var(--animation-base);
+}
+@media screen and (min-width: 768px) {
+  .contact__form-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact__form-icon {
+    width: 23px;
+    height: 23px;
+  }
 }
 
 .contact__form-message {
@@ -1620,7 +1634,7 @@ img {
 @media screen and (min-width: 768px) {
   .contact__post {
     align-self: flex-start;
-    width: 380px;
+    width: 480px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1644,6 +1658,7 @@ img {
 @media screen and (min-width: 768px) {
   .contact__post-text {
     font-size: 35px;
+    margin-bottom: 70px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1654,24 +1669,29 @@ img {
 }
 
 .contact__post > .contact__post-arrow {
-  width: 6em;
+  width: 4em;
   height: 6em;
   stroke-width: 0;
   stroke: currentColor;
   fill: white;
+  transform: rotate(20deg);
   position: absolute;
-  top: 60px;
-  left: 30px;
+  top: 55px;
+  left: -5px;
 }
 @media screen and (min-width: 768px) {
   .contact__post > .contact__post-arrow {
+    width: 6em;
+    transform: rotate(10deg);
+    top: 65px;
     left: 45px;
   }
 }
 @media screen and (min-width: 1200px) {
   .contact__post > .contact__post-arrow {
-    top: 90px;
-    left: 220px;
+    transform: rotate(10deg);
+    top: 85px;
+    left: 150px;
   }
 }
 
@@ -1685,6 +1705,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .contact__post > .contact__post-image-bird {
+    bottom: 55px;
     right: -45px;
     min-width: 150px;
   }

@@ -29,9 +29,9 @@ function onFormBtnSubmit(e) {
     `;
 
   Email.send({
-    SecureToken: '5d022fc2-bc33-4252-bae5-97f2ad695e11',
-    To: 'torisolt@gmail.com',
-    From: 'mmmdems.omp@gmail.com',
+    SecureToken: 'c13a1f3b-32ac-4c8f-9f5d-2568db68dd9e',
+    To: 'Viktoriabookart@gmail.com',
+    From: 'Viktoriabookart@gmail.com',
     Subject: 'site "Viktoria Soltis-Doan" => from ' + emailEl.value,
     Body: ebody,
   }).then(message => alert(message));

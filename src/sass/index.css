@@ -29,6 +29,7 @@ Roboto
   --books-item-bcg: white;
   --books-item-border-color: rgb(0, 0, 0);
   --books-caption-bcg: #fff36b;
+  --books-caption-bcg-other: #56ffa9;
   --books-title-color-accent: #09792b;
   --animation-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --animation-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -734,7 +735,7 @@ img {
 
 .books__item {
   overflow: hidden;
-  width: 350px;
+  width: 300px;
   background: var(--books-item-bcg);
   border-radius: 20px;
   box-shadow: 0 8px 26px rgba(0, 0, 0, 0.4), 0 28px 30px rgba(0, 0, 0, 0.3);
@@ -764,9 +765,13 @@ img {
 }
 
 .books__card-cover {
-  flex: 1;
   display: flex;
   align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .books__card-cover {
+    height: 355px;
+  }
 }
 
 .books__card-cover-image {
@@ -779,21 +784,28 @@ img {
 }
 
 .books__card-caption {
-  align-self: flex-end;
   padding-top: 10px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  min-height: 135px;
   background: var(--books-caption-bcg);
+}
+@media screen and (min-width: 768px) {
+  .books__card-caption {
+    height: 158px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .books__card-caption {
+    height: 165px;
+  }
 }
 
 .books__card-title {
   font-family: "Montserrat", Verdana, sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   line-height: 1.4444444444;
-  /* letter-spacing: 0.06em; */
   text-align: center;
   margin-bottom: 8px;
   width: 100%;
@@ -802,7 +814,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .books__card-title {
-    font-size: 19px;
+    font-size: 16px;
   }
 }
 .books__card-title:hover, .books__card-title:focus {
@@ -818,8 +830,57 @@ img {
 }
 @media screen and (min-width: 768px) {
   .books__card-text {
-    font-size: 16px;
+    font-size: 15px;
   }
+}
+
+.books__card-title-other-thumb {
+  position: relative;
+}
+
+.books__card-title-other {
+  position: absolute;
+  top: 32px;
+  left: 73px;
+  width: 160px;
+  font-family: "Montserrat", Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.1111111111;
+  text-align: center;
+  color: var(--text-color-primary);
+}
+@media screen and (min-width: 768px) {
+  .books__card-title-other {
+    top: 70px;
+    left: 83px;
+  }
+}
+
+.books__card-caption-other {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px 10px 5px;
+  height: 135px;
+  background: var(--books-caption-bcg-other);
+}
+@media screen and (min-width: 768px) {
+  .books__card-caption-other {
+    height: 158px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .books__card-caption-other {
+    height: 165px;
+  }
+}
+
+.books__card-text-other {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.1111111111;
+  color: var(--text-color-primary);
 }
 
 .about-me__section {

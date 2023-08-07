@@ -5,18 +5,18 @@ export const illustrationsGalleryItems = [
     description:
       "Illustration for the Wimmelbook ''Transport'', PET publishing house",
   },
-  // {
-  //   preview: './images/illustrations/Illustration-02_preview.jpg',
-  //   original: './images/illustrations/Illustration-02.jpg',
-  //   description:
-  //     'Illustration for the annual calendar for the Raduga advertising agency',
-  // },
-  // {
-  //   preview: './images/illustrations/Illustration-03_preview.jpg',
-  //   original: './images/illustrations/Illustration-03.jpg',
-  //   description:
-  //     "Illustration for the author of the book ''The Boy from Mars''",
-  // },
+  {
+    preview: './images/illustrations/Illustration-02_preview.jpg',
+    original: './images/illustrations/Illustration-02.jpg',
+    description:
+      'Illustration for the annual calendar for the Raduga advertising agency',
+  },
+  {
+    preview: 'images/illustrations/Illustration-03_preview.jpg',
+    original: 'images/illustrations/Illustration-03.jpg',
+    description:
+      "Illustration for the author of the book ''The Boy from Mars''",
+  },
   // {
   //   preview: './images/illustrations/Illustration-04_preview.jpg',
   //   original: './images/illustrations/Illustration-04.jpg',

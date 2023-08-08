@@ -1358,6 +1358,62 @@ img {
   }
 }
 
+.illustrations__section {
+  background-color: rgb(200, 217, 232);
+}
+
+.illustrations__text {
+  font-family: "Caveat", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.1111111111;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.illustrations-gallery {
+  display: grid;
+  max-width: 1140px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-auto-rows: 240px;
+  grid-gap: 12px;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.illustrations-gallery__item {
+  position: relative;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.illustrations-gallery__image {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform var(--animation-base);
+}
+
+.illustrations-gallery__image:hover {
+  transform: scale(1.03);
+}
+
+.illustrations-gallery__link {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+}
+
+.illustrations-gallery__link:hover {
+  cursor: zoom-in;
+}
+
 .contact__section {
   background: linear-gradient(152.45deg, #b6ddff 1.98%, #0070d2 123.04%, rgba(182, 221, 255, 0) 123.04%);
 }

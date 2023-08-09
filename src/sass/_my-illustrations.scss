@@ -21,6 +21,20 @@
   color: rgb(0, 0, 0);
 }
 
+.illustrations__socials-email,
+.illustrations__socials-link {
+  font-family: inherit;
+  text-decoration: underline;
+  // color: #903fd3;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+    color: #903fd3;
+  }
+}
+// 	color: #073716;
+
 .illustrations-gallery {
   display: grid;
   max-width: 1140px;
@@ -45,18 +59,20 @@
   width: 100%;
   object-fit: cover;
   transition: transform var(--animation-base);
-}
 
-.illustrations-gallery__image:hover {
-  transform: scale(1.03);
+  &:hover,
+  &:focus {
+    transform: scale(1.03);
+  }
 }
 
 .illustrations-gallery__link {
   display: block;
   text-decoration: none;
   height: 100%;
-}
 
-.illustrations-gallery__link:hover {
-  cursor: zoom-in;
+  &:hover,
+  &:focus {
+    cursor: zoom-in;
+  }
 }

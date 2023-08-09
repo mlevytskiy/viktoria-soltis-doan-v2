@@ -1374,6 +1374,18 @@ img {
   color: rgb(0, 0, 0);
 }
 
+.illustrations__socials-email,
+.illustrations__socials-link {
+  font-family: inherit;
+  text-decoration: underline;
+}
+.illustrations__socials-email:hover, .illustrations__socials-email:focus,
+.illustrations__socials-link:hover,
+.illustrations__socials-link:focus {
+  text-decoration: underline;
+  color: #903fd3;
+}
+
 .illustrations-gallery {
   display: grid;
   max-width: 1140px;
@@ -1399,8 +1411,7 @@ img {
      object-fit: cover;
   transition: transform var(--animation-base);
 }
-
-.illustrations-gallery__image:hover {
+.illustrations-gallery__image:hover, .illustrations-gallery__image:focus {
   transform: scale(1.03);
 }
 
@@ -1409,8 +1420,7 @@ img {
   text-decoration: none;
   height: 100%;
 }
-
-.illustrations-gallery__link:hover {
+.illustrations-gallery__link:hover, .illustrations-gallery__link:focus {
   cursor: zoom-in;
 }
 

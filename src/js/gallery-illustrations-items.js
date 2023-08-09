@@ -1,47 +1,67 @@
-import Illustration_01_prev from '../images/illustrations/Illustration-01_preview.jpg';
-import Illustration_01_orig from '../images/illustrations/Illustration-01_original.jpg';
-import Illustration_02_prev from '../images/illustrations/Illustration-02_preview.jpg';
-import Illustration_02_orig from '../images/illustrations/Illustration-02_original.jpg';
-import Illustration_03_prev from '../images/illustrations/Illustration-03_preview.jpg';
-import Illustration_03_orig from '../images/illustrations/Illustration-03_original.jpg';
-import Illustration_04_prev from '../images/illustrations/Illustration-04_preview.jpg';
-import Illustration_04_orig from '../images/illustrations/Illustration-04_original.jpg';
-import Illustration_05_prev from '../images/illustrations/Illustration-05_preview.jpg';
-import Illustration_05_orig from '../images/illustrations/Illustration-05_original.jpg';
-import Illustration_06_prev from '../images/illustrations/Illustration-06_preview.jpg';
-import Illustration_06_orig from '../images/illustrations/Illustration-06_original.jpg';
-import Illustration_07_prev from '../images/illustrations/Illustration-07_preview.jpg';
-import Illustration_07_orig from '../images/illustrations/Illustration-07_original.jpg';
-import Illustration_08_prev from '../images/illustrations/Illustration-08_preview.jpg';
-import Illustration_08_orig from '../images/illustrations/Illustration-08_original.jpg';
-import Illustration_09_prev from '../images/illustrations/Illustration-09_preview.jpg';
-import Illustration_09_orig from '../images/illustrations/Illustration-09_original.jpg';
-import Illustration_10_prev from '../images/illustrations/Illustration-10_preview.jpg';
-import Illustration_10_orig from '../images/illustrations/Illustration-10_original.jpg';
-import Illustration_11_prev from '../images/illustrations/Illustration-11_preview.jpg';
-import Illustration_11_orig from '../images/illustrations/Illustration-11_original.jpg';
-import Illustration_12_prev from '../images/illustrations/Illustration-12_preview.jpg';
-import Illustration_12_orig from '../images/illustrations/Illustration-12_original.jpg';
-import Illustration_13_prev from '../images/illustrations/Illustration-13_preview.jpg';
-import Illustration_13_orig from '../images/illustrations/Illustration-13_original.jpg';
-import Illustration_14_prev from '../images/illustrations/Illustration-14_preview.jpg';
-import Illustration_14_orig from '../images/illustrations/Illustration-14_original.jpg';
-import Illustration_15_prev from '../images/illustrations/Illustration-15_preview.jpg';
-import Illustration_15_orig from '../images/illustrations/Illustration-15_original.jpg';
-import Illustration_16_prev from '../images/illustrations/Illustration-16_preview.jpg';
-import Illustration_16_orig from '../images/illustrations/Illustration-16_original.jpg';
-import Illustration_17_prev from '../images/illustrations/Illustration-17_preview.jpg';
-import Illustration_17_orig from '../images/illustrations/Illustration-17_original.jpg';
-import Illustration_18_prev from '../images/illustrations/Illustration-18_preview.jpg';
-import Illustration_18_orig from '../images/illustrations/Illustration-18_original.jpg';
-// import Illustration_19_prev from '../images/illustrations/Illustration-19_preview.jpg';
-// import Illustration_19_orig from '../images/illustrations/Illustration-19_original.jpg';
-// import Illustration_20_prev from '../images/illustrations/Illustration-20_preview.jpg';
-// import Illustration_20_orig from '../images/illustrations/Illustration-20_original.jpg';
-// import Illustration_21_prev from '../images/illustrations/Illustration-21_preview.jpg';
-// import Illustration_21_orig from '../images/illustrations/Illustration-21_original.jpg';
-// import Illustration_22_prev from '../images/illustrations/Illustration-22_preview.jpg';
-// import Illustration_22_orig from '../images/illustrations/Illustration-22_original.jpg';
+import Illustration_01_prev from '../images/illustrations/Illustration-01_preview@1x.webp';
+import Illustration_01_orig from '../images/illustrations/Illustration-01_original@1x.webp';
+import Illustration_02_prev from '../images/illustrations/Illustration-02_preview@1x.webp';
+import Illustration_02_orig from '../images/illustrations/Illustration-02_original@1x.webp';
+import Illustration_03_prev from '../images/illustrations/Illustration-03_preview@1x.webp';
+import Illustration_03_orig from '../images/illustrations/Illustration-03_original@1x.webp';
+import Illustration_04_prev from '../images/illustrations/Illustration-04_preview@1x.webp';
+import Illustration_04_orig from '../images/illustrations/Illustration-04_original@1x.webp';
+import Illustration_05_prev from '../images/illustrations/Illustration-05_preview@1x.webp';
+import Illustration_05_orig from '../images/illustrations/Illustration-05_original@1x.webp';
+import Illustration_06_prev from '../images/illustrations/Illustration-06_preview@1x.webp';
+import Illustration_06_orig from '../images/illustrations/Illustration-06_original@1x.webp';
+import Illustration_07_prev from '../images/illustrations/Illustration-07_preview@1x.webp';
+import Illustration_07_orig from '../images/illustrations/Illustration-07_original@1x.webp';
+import Illustration_08_prev from '../images/illustrations/Illustration-08_preview@1x.webp';
+import Illustration_08_orig from '../images/illustrations/Illustration-08_original@1x.webp';
+import Illustration_09_prev from '../images/illustrations/Illustration-09_preview@1x.webp';
+import Illustration_09_orig from '../images/illustrations/Illustration-09_original@1x.webp';
+import Illustration_10_prev from '../images/illustrations/Illustration-10_preview@1x.webp';
+import Illustration_10_orig from '../images/illustrations/Illustration-10_original@1x.webp';
+import Illustration_11_prev from '../images/illustrations/Illustration-11_preview@1x.webp';
+import Illustration_11_orig from '../images/illustrations/Illustration-11_original@1x.webp';
+import Illustration_12_prev from '../images/illustrations/Illustration-12_preview@1x.webp';
+import Illustration_12_orig from '../images/illustrations/Illustration-12_original@1x.webp';
+import Illustration_13_prev from '../images/illustrations/Illustration-13_preview@1x.webp';
+import Illustration_13_orig from '../images/illustrations/Illustration-13_original@1x.webp';
+import Illustration_14_prev from '../images/illustrations/Illustration-14_preview@1x.webp';
+import Illustration_14_orig from '../images/illustrations/Illustration-14_original@1x.webp';
+import Illustration_15_prev from '../images/illustrations/Illustration-15_preview@1x.webp';
+import Illustration_15_orig from '../images/illustrations/Illustration-15_original@1x.webp';
+import Illustration_16_prev from '../images/illustrations/Illustration-16_preview@1x.webp';
+import Illustration_16_orig from '../images/illustrations/Illustration-16_original@1x.webp';
+import Illustration_17_prev from '../images/illustrations/Illustration-17_preview@1x.webp';
+import Illustration_17_orig from '../images/illustrations/Illustration-17_original@1x.webp';
+import Illustration_18_prev from '../images/illustrations/Illustration-18_preview@1x.webp';
+import Illustration_18_orig from '../images/illustrations/Illustration-18_original@1x.webp';
+import Illustration_19_prev from '../images/illustrations/Illustration-19_preview@1x.webp';
+import Illustration_19_orig from '../images/illustrations/Illustration-19_original@1x.webp';
+import Illustration_20_prev from '../images/illustrations/Illustration-20_preview@1x.webp';
+import Illustration_20_orig from '../images/illustrations/Illustration-20_original@1x.webp';
+import Illustration_21_prev from '../images/illustrations/Illustration-21_preview@1x.webp';
+import Illustration_21_orig from '../images/illustrations/Illustration-21_original@1x.webp';
+import Illustration_22_prev from '../images/illustrations/Illustration-22_preview@1x.webp';
+import Illustration_22_orig from '../images/illustrations/Illustration-22_original@1x.webp';
+
+// --------------------------------
+
+// import Illustration_01_prev1x from '../images/illustrations/Illustration-01_preview@1x.webp';
+// import Illustration_01_prev2x from '../images/illustrations/Illustration-01_preview@2x.webp';
+// import Illustration_01_orig1x from '../images/illustrations/Illustration-01_original@1x.webp';
+// import Illustration_01_orig2x from '../images/illustrations/Illustration-01_original@1x.webp';
+
+// export const illustrationsGalleryItems = [
+//   {
+//     preview1x: Illustration_01_prev1x,
+//     preview2x: Illustration_01_prev2x,
+//     original1x: Illustration_01_orig1x,
+//     original2x: Illustration_01_orig2x,
+//     description:
+//       "Illustration for the Wimmelbook ''Transport'', PET publishing house",
+//   },
+// ];
+
+// --------------------------------
 
 export const illustrationsGalleryItems = [
   {
@@ -141,24 +161,24 @@ export const illustrationsGalleryItems = [
     original: Illustration_18_orig,
     description: 'A full illustrated book',
   },
-  // {
-  //   preview: Illustration_19_prev,
-  //   original: Illustration_19_orig,
-  //   description: 'Beth the Witch Creates a Pet',
-  // },
-  // {
-  //   preview: Illustration_20_prev,
-  //   original: Illustration_20_orig,
-  //   description: "Illustration to book ''The Dragon and The Grandma''",
-  // },
-  // {
-  //   preview: Illustration_21_prev,
-  //   original: Illustration_21_orig,
-  //   description: 'The Boy from Mars',
-  // },
-  // {
-  //   preview: Illustration_22_prev,
-  //   original: Illustration_22_orig,
-  //   description: 'Good Night Everybody!',
-  // },
+  {
+    preview: Illustration_19_prev,
+    original: Illustration_19_orig,
+    description: 'Beth the Witch Creates a Pet',
+  },
+  {
+    preview: Illustration_20_prev,
+    original: Illustration_20_orig,
+    description: "Illustration to book ''The Dragon and The Grandma''",
+  },
+  {
+    preview: Illustration_21_prev,
+    original: Illustration_21_orig,
+    description: 'The Boy from Mars',
+  },
+  {
+    preview: Illustration_22_prev,
+    original: Illustration_22_orig,
+    description: 'Good Night Everybody!',
+  },
 ];

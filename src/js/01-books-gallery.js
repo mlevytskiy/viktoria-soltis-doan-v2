@@ -12,12 +12,12 @@ booksGalleryEl.innerHTML = createListItem(booksGalleryItems);
 function createListItem(books) {
   return books
     .map(
-      ({ title, description, bookPage, bookImage, alt }) =>
+      ({ title, description, bookPage, bookImage_1x, alt }) =>
         `<li class="books__item">
           <a class="link" href="${bookPage}">
             <div class="books__card">
               <div class="books__card-cover">
-                <img class="books__card-cover-image" src="${bookImage}" alt="${alt}" width="250" height="250"  loading="lazy">
+                <img class="books__card-cover-image" src="${bookImage_1x}" alt="${alt}" width="250" height="250"  loading="lazy">
               </div>
               <div class="books__card-caption">
                 <h3 class="books__card-title">

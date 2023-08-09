@@ -34,6 +34,14 @@ import Illustration_17_prev from '../images/illustrations/Illustration-17_previe
 import Illustration_17_orig from '../images/illustrations/Illustration-17_original.jpg';
 import Illustration_18_prev from '../images/illustrations/Illustration-18_preview.jpg';
 import Illustration_18_orig from '../images/illustrations/Illustration-18_original.jpg';
+// import Illustration_19_prev from '../images/illustrations/Illustration-19_preview.jpg';
+// import Illustration_19_orig from '../images/illustrations/Illustration-19_original.jpg';
+// import Illustration_20_prev from '../images/illustrations/Illustration-20_preview.jpg';
+// import Illustration_20_orig from '../images/illustrations/Illustration-20_original.jpg';
+// import Illustration_21_prev from '../images/illustrations/Illustration-21_preview.jpg';
+// import Illustration_21_orig from '../images/illustrations/Illustration-21_original.jpg';
+// import Illustration_22_prev from '../images/illustrations/Illustration-22_preview.jpg';
+// import Illustration_22_orig from '../images/illustrations/Illustration-22_original.jpg';
 
 export const illustrationsGalleryItems = [
   {
@@ -133,4 +141,24 @@ export const illustrationsGalleryItems = [
     original: Illustration_18_orig,
     description: 'A full illustrated book',
   },
+  // {
+  //   preview: Illustration_19_prev,
+  //   original: Illustration_19_orig,
+  //   description: 'Beth the Witch Creates a Pet',
+  // },
+  // {
+  //   preview: Illustration_20_prev,
+  //   original: Illustration_20_orig,
+  //   description: "Illustration to book ''The Dragon and The Grandma''",
+  // },
+  // {
+  //   preview: Illustration_21_prev,
+  //   original: Illustration_21_orig,
+  //   description: 'The Boy from Mars',
+  // },
+  // {
+  //   preview: Illustration_22_prev,
+  //   original: Illustration_22_orig,
+  //   description: 'Good Night Everybody!',
+  // },
 ];

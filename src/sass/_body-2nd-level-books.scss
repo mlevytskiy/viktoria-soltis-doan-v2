@@ -13,14 +13,16 @@
 
 // реалізація градієнтної заливки літер кольором
 .books-page__title-container {
+  text-align: center;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+
   background: linear-gradient(45deg, #388799, #ba0375, #ffa336);
   background-size: cover;
-  color: #fff;
-  text-align: center;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
 
-  margin-bottom: 8px;
+  color: #fff;
 }
 
 .books-page__title {
@@ -52,7 +54,7 @@
   margin-bottom: 30px;
 
   @media screen and (min-width: 768px) {
-    font-size: 28px;
+    font-size: 24px;
   }
   // @media screen and (min-width: 1200px) {}
 

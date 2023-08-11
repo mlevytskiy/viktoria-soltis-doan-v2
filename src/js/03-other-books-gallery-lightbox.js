@@ -15,13 +15,13 @@ otherBooksGalleryEl.innerHTML = createListImg(otherBooksGalleryItems);
 function createListImg(images) {
   return images
     .map(
-      ({ preview, original, description }) =>
+      ({ preview, original }) =>
         `<li class="other-books-gallery__item">
             <a class="other-books-gallery__link" href="${original}">
                 <img
                     class="other-books-gallery__image"
                     src="${preview}"
-                    alt="${description}"
+                    alt="book in another language"
                     loading="lazy"
                 />
             </a>
@@ -32,9 +32,9 @@ function createListImg(images) {
 
 // бібліотека SimpleLightbox
 const lightbox = new SimpleLightbox('.other-books-gallery a', {
-  // captions: true,
-  captionsData: 'alt',
-  captionDelay: 500,
+  captions: false,
+  // captionsData: 'alt',
+  // captionDelay: 500,
   // nav: true,
   // close: true,
   // overlay: true,

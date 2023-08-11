@@ -29,7 +29,7 @@ Roboto
   --books-item-bcg: white;
   --books-item-border-color: rgb(0, 0, 0);
   --books-caption-bcg: #fff36b;
-  --books-caption-bcg-other: #56ffa9;
+  --books-caption-bcg-other: #c7ffd8;
   --books-title-color-accent: #09792b;
   --animation-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --animation-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -669,14 +669,14 @@ img {
 }
 
 .books-page__title-container {
+  text-align: center;
+  margin-bottom: 8px;
+  text-transform: uppercase;
   background: linear-gradient(45deg, #388799, #ba0375, #ffa336);
   background-size: cover;
-  color: #fff;
-  text-align: center;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-          background-clip: text;
-  margin-bottom: 8px;
+  color: #fff;
 }
 
 .books-page__title {
@@ -708,7 +708,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .books-page__text {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 
@@ -1373,6 +1373,11 @@ img {
   margin-bottom: 30px;
   color: rgb(0, 0, 0);
 }
+@media screen and (min-width: 768px) {
+  .illustrations__text {
+    font-size: 24px;
+  }
+}
 
 .illustrations__socials-email,
 .illustrations__socials-link {
@@ -1909,7 +1914,7 @@ img {
 }
 
 .other-books__section {
-  background-color: rgb(200, 217, 232);
+  background-color: var(--books-caption-bcg-other);
 }
 
 .other-books__text {
@@ -1922,6 +1927,11 @@ img {
   text-align: center;
   margin-bottom: 30px;
   color: rgb(0, 0, 0);
+}
+@media screen and (min-width: 768px) {
+  .other-books__text {
+    font-size: 24px;
+  }
 }
 
 .other-books-gallery {

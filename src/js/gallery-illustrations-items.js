@@ -42,6 +42,10 @@ import Illustration_21_prev from '../images/illustrations/Illustration-21_previe
 import Illustration_21_orig from '../images/illustrations/Illustration-21_original@1x.webp';
 import Illustration_22_prev from '../images/illustrations/Illustration-22_preview@1x.webp';
 import Illustration_22_orig from '../images/illustrations/Illustration-22_original@1x.webp';
+import Illustration_23_prev from '../images/illustrations/Illustration-23_preview@1x.webp';
+import Illustration_23_orig from '../images/illustrations/Illustration-23_original@1x.webp';
+import Illustration_24_prev from '../images/illustrations/Illustration-24_preview@1x.webp';
+import Illustration_24_orig from '../images/illustrations/Illustration-24_original@1x.webp';
 
 // --------------------------------
 
@@ -180,5 +184,17 @@ export const illustrationsGalleryItems = [
     preview: Illustration_22_prev,
     original: Illustration_22_orig,
     description: 'Good Night Everybody!',
+  },
+  {
+    preview: Illustration_23_prev,
+    original: Illustration_23_orig,
+    description:
+      "Illustration to book 'Jednorožec, který snil o sněhu', Pierot Vydavateľstvo",
+  },
+  {
+    preview: Illustration_24_prev,
+    original: Illustration_24_orig,
+    description:
+      "Illustration to book 'Jednorožec, který snil o sněhu', Pierot Vydavateľstvo",
   },
 ];

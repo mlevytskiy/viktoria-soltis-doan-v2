@@ -479,17 +479,17 @@ img {
 }
 @media screen and (max-width: 767px) {
   .main-body__section {
-    background-image: url("../images/main-page/img-bcg-mobile@1x.jpg");
+    background-image: url("../images/main-page/img-bcg-mobile@1x.webp");
   }
 }
 @media screen and (min-width: 768px) {
   .main-body__section {
-    background-image: url("../images/main-page/img-bcg-tablet@1x.jpg");
+    background-image: url("../images/main-page/img-bcg-tablet@1x.webp");
   }
 }
 @media screen and (min-width: 1200px) {
   .main-body__section {
-    background-image: url("../images/main-page/img-bcg-desktop@1x.jpg");
+    background-image: url("../images/main-page/img-bcg-desktop@1x.webp");
   }
 }
 

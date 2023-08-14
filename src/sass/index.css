@@ -165,6 +165,16 @@ img {
   }
 }
 
+a:is(:link, :active, :visited).active-page-link {
+  color: #67068a;
+  text-decoration: underline;
+  cursor: default;
+}
+
+li.active-page-item:hover, li.active-page-item:focus {
+  transform: none;
+}
+
 .header {
   padding-top: 10px;
   padding-bottom: 10px;

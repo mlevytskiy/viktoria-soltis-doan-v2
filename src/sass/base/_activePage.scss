@@ -1,0 +1,14 @@
+a:is(:link, :active, :visited).active-page-link {
+  color: #67068a;
+  text-decoration: underline;
+  cursor: default;
+}
+
+li.active-page-item {
+  // font-size: 40px;
+
+  &:hover,
+  &:focus {
+    transform: none;
+  }
+}

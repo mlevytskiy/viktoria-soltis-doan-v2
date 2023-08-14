@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#scrollUpProgress {
+  // background-color: #14a65a;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 70px;
+  width: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 2;
+}
+
+#scrollUpProgress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #dcdee8;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #0c4a2a;
+}

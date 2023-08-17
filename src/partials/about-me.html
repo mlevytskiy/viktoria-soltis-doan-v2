@@ -34,9 +34,16 @@
         Viktoria Soltis-Doan - author and illustrator of children's books
       </h1>
 
-      <img srcset="../images/about-page/img-about-me-1@1x.png 1x, ../images/about-page/img-about-me-1@2x.png 2x"
-        src="../images/about-page/img-about-me-1@1x.png" alt="my photo" width="280" height="448" loading="lazy"
-        class="about-me__img">
+      <picture>
+        <source media="(min-width: 1200px)"
+          srcset="../images/about-page/img-about-me-1-desktop@1x.png 1x, ../images/about-page/img-about-me-1-desktop@2x.png 2x" />
+        <source media="(min-width: 768px)"
+          srcset="../images/about-page/img-about-me-1-tablet@1x.png 1x, ../images/about-page/img-about-me-1-tablet@2x.png 2x" />
+        <source media="(max-width: 767px)"
+          srcset="../images/about-page/img-about-me-1-mobile@1x.png 1x, ../images/about-page/img-about-me-1-mobile@2x.png 2x" />
+        <img class="about-me__img" src="../images/about-page/img-about-me-1-mobile@1x.png"
+          alt="photo Viktoria Soltis-Doan" width="280" height="448" loading="lazy">
+      </picture>
 
       <div class="about-me__description">
         <p class="about-me__description-greeting">
@@ -62,9 +69,16 @@
         </p>
       </div>
 
-      <img srcset="../images/about-page/img-about-me-2@1x.png 1x, ../images/about-page/img-about-me-2@2x.png 2x"
-        src="../images/about-page/img-about-me-2@1x.png" alt="my photo" width="400" height="424" loading="lazy"
-        class="about-me__img-facts">
+      <picture>
+        <source media="(min-width: 1200px)"
+          srcset="../images/about-page/img-about-me-2-desktop@1x.png 1x, ../images/about-page/img-about-me-2-desktop@2x.png 2x" />
+        <source media="(min-width: 768px)"
+          srcset="../images/about-page/img-about-me-2-tablet@1x.png 1x, ../images/about-page/img-about-me-2-tablet@2x.png 2x" />
+        <source media="(max-width: 767px)"
+          srcset="../images/about-page/img-about-me-2-mobile@1x.png 1x, ../images/about-page/img-about-me-2-mobile@2x.png 2x" />
+        <img class="about-me__img-facts" src="../images/about-page/img-about-me-2-mobile@1x.png"
+          alt="photo Viktoria Soltis-Doan" width="400" height="424" loading="lazy">
+      </picture>
 
       <div class="about-me__facts">
         <h2 class="about-me__facts-title">
@@ -102,9 +116,16 @@
         </ul>
       </div>
 
-      <img srcset="../images/about-page/img-about-me-3@1x.png 1x, ../images/about-page/img-about-me-3@2x.png 2x"
-        src="../images/about-page/img-about-me-3@1x.png" alt="books and apple" width="360" height="280" loading="lazy"
-        class="about-me__img-thumb">
+      <picture>
+        <source media="(min-width: 1200px)"
+          srcset="../images/about-page/img-about-me-3-desktop@1x.png 1x, ../images/about-page/img-about-me-3-desktop@2x.png 2x" />
+        <source media="(min-width: 768px)"
+          srcset="../images/about-page/img-about-me-3-tablet@1x.png 1x, ../images/about-page/img-about-me-3-tablet@2x.png 2x" />
+        <source media="(max-width: 767px)"
+          srcset="../images/about-page/img-about-me-3-mobile@1x.png 1x, ../images/about-page/img-about-me-3-mobile@2x.png 2x" />
+        <img class="about-me__img-thumb" src="../images/about-page/img-about-me-3-mobile@1x.png" alt="books and apple"
+          width="360" height="280" loading="lazy">
+      </picture>
 
       <!--- Socials --->
       <a class="about-me__socials-link" href="./contact.html" aria-label="Socials icon - go to Contact">

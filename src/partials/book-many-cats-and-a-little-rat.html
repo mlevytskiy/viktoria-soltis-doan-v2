@@ -31,10 +31,18 @@
     <div class="book-page__container container">
 
       <div class="book-page__main-content">
-        <img class="book-page__img"
-          srcset="../images/book-page/book-cover-3-2@1x.png 1x, ../images/book-page/book-cover-3-2@2x.png 2x"
-          src="../images/book-page/book-cover-3-2@1x.png" alt="Many Cats and a Little Rat" width="350" height="307"
-          loading="lazy">
+
+        <picture>
+          <source media="(min-width: 1200px)"
+            srcset="../images/book-page/book-cover-3-desktop@1x.png 1x, ../images/book-page/book-cover-3-desktop@2x.png 2x" />
+          <source media="(min-width: 768px)"
+            srcset="../images/book-page/book-cover-3-tablet@1x.png 1x, ../images/book-page/book-cover-3-tablet@2x.png 2x" />
+          <source media="(max-width: 767px)"
+            srcset="../images/book-page/book-cover-3-mobile@1x.png 1x, ../images/book-page/book-cover-3-mobile@2x.png 2x" />
+          <img class="book-page__img" src="../images/book-page/book-cover-3-mobile@1x.png"
+            alt="Many Cats and a Little Rat" width="350" height="307" loading="lazy">
+        </picture>
+
         <div class="book-page__description">
           <p class="book-page__description-text">
             Big Wimmelbook let kids ages 2 to 10 be the storytellers with hours of seek-and-find hands-on

@@ -951,26 +951,41 @@ html {
   }
 }
 
-.about-me__img {
+.about-me__img-wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
   margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .about-me__img-wrapper {
+    display: grid;
+    grid-column: 1/8;
+    grid-row: 1/9;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-me__img-wrapper {
+    grid-column: 1/10;
+    grid-row: 1/10;
+  }
+}
+
+.about-me__img {
   transform: rotate(-4deg);
 }
 @media screen and (min-width: 768px) {
   .about-me__img {
     width: 210px;
     margin-bottom: 0px;
-    grid-column: 1/8;
-    grid-row: 1/9;
   }
 }
 @media screen and (min-width: 1200px) {
   .about-me__img {
     width: 300px;
     transform: rotate(-6deg);
-    grid-column: 1/10;
-    grid-row: 1/10;
   }
 }
 
@@ -1028,24 +1043,36 @@ html {
   }
 }
 
-.about-me__img-facts {
+.about-me__img-facts-wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
   margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
 }
 @media screen and (min-width: 768px) {
-  .about-me__img-facts {
-    width: 320px;
-    margin-bottom: 0px;
+  .about-me__img-facts-wrapper {
+    display: grid;
     grid-column: 13/21;
     grid-row: 12/15;
   }
 }
 @media screen and (min-width: 1200px) {
-  .about-me__img-facts {
-    width: 350px;
+  .about-me__img-facts-wrapper {
     grid-column: 12/21;
     grid-row: 12/15;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-me__img-facts {
+    width: 320px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-me__img-facts {
+    width: 350px;
   }
 }
 
@@ -1126,24 +1153,37 @@ html {
   }
 }
 
-.about-me__img-thumb {
+.about-me__img-thumb-wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
   margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
 }
 @media screen and (min-width: 768px) {
-  .about-me__img-thumb {
-    width: 200px;
-    margin-bottom: 0px;
+  .about-me__img-thumb-wrapper {
+    display: grid;
     grid-column: 9/16;
     grid-row: 17/22;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-me__img-thumb-wrapper {
+    grid-column: 18/26;
+    grid-row: 16/22;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-me__img-thumb {
+    width: 200px;
   }
 }
 @media screen and (min-width: 1200px) {
   .about-me__img-thumb {
     width: 330px;
-    grid-column: 18/26;
-    grid-row: 16/22;
   }
 }
 
@@ -1208,6 +1248,7 @@ html {
 @media screen and (min-width: 1200px) {
   .book-page__container {
     position: relative;
+    gap: 80px;
   }
 }
 
@@ -1271,7 +1312,7 @@ html {
 @media screen and (min-width: 1200px) {
   .book-page__container > .book-page__btn-container {
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 60%;
     width: 300px;
   }

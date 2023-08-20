@@ -609,7 +609,7 @@ html {
 
 @media screen and (max-width: 767px) {
   .main-body__list-img {
-    width: 250px;
+    width: 260px;
   }
 }
 
@@ -634,7 +634,7 @@ html {
 
 .main-body__list-thumb > .main-body__list-title-books {
   position: absolute;
-  bottom: 22px;
+  bottom: 25px;
   left: 85px;
 }
 @media screen and (min-width: 768px) {
@@ -646,31 +646,31 @@ html {
 @media screen and (min-width: 1200px) {
   .main-body__list-thumb > .main-body__list-title-books {
     bottom: 25px;
-    left: 103px;
+    left: 77px;
   }
 }
 
 .main-body__list-thumb > .main-body__list-title-my-illustrations {
   position: absolute;
-  bottom: 22px;
+  bottom: 25px;
   left: 52px;
 }
 @media screen and (min-width: 768px) {
   .main-body__list-thumb > .main-body__list-title-my-illustrations {
     bottom: 16px;
-    left: 42px;
+    left: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
   .main-body__list-thumb > .main-body__list-title-my-illustrations {
     bottom: 22px;
-    left: 64px;
+    left: 44px;
   }
 }
 
 .main-body__list-thumb > .main-body__list-title-about {
   position: absolute;
-  bottom: 20px;
+  bottom: 25px;
   left: 83px;
 }
 @media screen and (min-width: 768px) {
@@ -682,13 +682,13 @@ html {
 @media screen and (min-width: 1200px) {
   .main-body__list-thumb > .main-body__list-title-about {
     bottom: 25px;
-    left: 103px;
+    left: 82px;
   }
 }
 
 .main-body__list-thumb > .main-body__list-title-contacts {
   position: absolute;
-  bottom: 22px;
+  bottom: 25px;
   left: 90px;
 }
 @media screen and (min-width: 768px) {
@@ -700,7 +700,7 @@ html {
 @media screen and (min-width: 1200px) {
   .main-body__list-thumb > .main-body__list-title-contacts {
     bottom: 27px;
-    left: 106px;
+    left: 86px;
   }
 }
 

@@ -30,6 +30,12 @@ import otherBooks_15_prev from '../images/other-books/other-books-15-preview.web
 import otherBooks_15_orig from '../images/other-books/other-books-15-original.webp';
 import otherBooks_16_prev from '../images/other-books/other-books-16-preview.webp';
 import otherBooks_16_orig from '../images/other-books/other-books-16-original.webp';
+import otherBooks_17_prev from '../images/other-books/other-books-17-preview@1x.webp';
+import otherBooks_17_orig from '../images/other-books/other-books-17-original@1x.webp';
+import otherBooks_18_prev from '../images/other-books/other-books-18-preview@1x.webp';
+import otherBooks_18_orig from '../images/other-books/other-books-18-original@1x.webp';
+import otherBooks_19_prev from '../images/other-books/other-books-19-preview@1x.webp';
+import otherBooks_19_orig from '../images/other-books/other-books-19-original@1x.webp';
 
 export const otherBooksGalleryItems = [
   {
@@ -110,6 +116,21 @@ export const otherBooksGalleryItems = [
   {
     preview: otherBooks_16_prev,
     original: otherBooks_16_orig,
+    description: 'This is my book in another language',
+  },
+  {
+    preview: otherBooks_17_prev,
+    original: otherBooks_17_orig,
+    description: 'This is my book in another language',
+  },
+  {
+    preview: otherBooks_18_prev,
+    original: otherBooks_18_orig,
+    description: 'This is my book in another language',
+  },
+  {
+    preview: otherBooks_19_prev,
+    original: otherBooks_19_orig,
     description: 'This is my book in another language',
   },
 ];

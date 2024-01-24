@@ -46,6 +46,18 @@ import Illustration_23_prev from '../images/illustrations/Illustration-23_previe
 import Illustration_23_orig from '../images/illustrations/Illustration-23_original.webp';
 import Illustration_24_prev from '../images/illustrations/Illustration-24_preview.webp';
 import Illustration_24_orig from '../images/illustrations/Illustration-24_original.webp';
+import Illustration_25_prev from '../images/illustrations/Illustration-25_preview@1x.webp';
+import Illustration_25_orig from '../images/illustrations/Illustration-25_original@1x.webp';
+import Illustration_26_prev from '../images/illustrations/Illustration-26_preview@1x.webp';
+import Illustration_26_orig from '../images/illustrations/Illustration-26_original@1x.webp';
+import Illustration_27_prev from '../images/illustrations/Illustration-27_preview@1x.webp';
+import Illustration_27_orig from '../images/illustrations/Illustration-27_original@1x.webp';
+import Illustration_28_prev from '../images/illustrations/Illustration-28_preview@1x.webp';
+import Illustration_28_orig from '../images/illustrations/Illustration-28_original@1x.webp';
+import Illustration_29_prev from '../images/illustrations/Illustration-29_preview@1x.webp';
+import Illustration_29_orig from '../images/illustrations/Illustration-29_original@1x.webp';
+import Illustration_30_prev from '../images/illustrations/Illustration-30_preview@1x.webp';
+import Illustration_30_orig from '../images/illustrations/Illustration-30_original@1x.webp';
 
 export const illustrationsGalleryItems = [
   {
@@ -176,5 +188,39 @@ export const illustrationsGalleryItems = [
     original: Illustration_24_orig,
     description:
       "Illustration to book 'Jednorožec, který snil o sněhu', Pierot Vydavateľstvo",
+  },
+  {
+    preview: Illustration_25_prev,
+    original: Illustration_25_orig,
+    description:
+      "Illustration to book 'Bunny and Hedgehog on the planet Englishi'",
+  },
+  {
+    preview: Illustration_26_prev,
+    original: Illustration_26_orig,
+    description:
+      "Illustration to book 'Bunny and Hedgehog on the planet Englishi'",
+  },
+  {
+    preview: Illustration_27_prev,
+    original: Illustration_27_orig,
+    description:
+      "Illustrations to book '(Not) a terrible story about a monster tablet'",
+  },
+  {
+    preview: Illustration_28_prev,
+    original: Illustration_28_orig,
+    description:
+      "Illustrations to book '(Not) a terrible story about a monster tablet'",
+  },
+  {
+    preview: Illustration_29_prev,
+    original: Illustration_29_orig,
+    description: 'Illustration Cat and Turtle',
+  },
+  {
+    preview: Illustration_30_prev,
+    original: Illustration_30_orig,
+    description: "Illustration to book 'We love our glasses'",
   },
 ];

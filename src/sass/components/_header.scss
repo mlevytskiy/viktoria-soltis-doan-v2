@@ -109,44 +109,25 @@
 }
 
 .header-text__description {
-  font-family: 'Permanent Marker', Verdana, sans-serif;
+  font-family: 'Caveat', Verdana, sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 11px;
-  line-height: calc(16 / 11);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(25 / 20);
+  letter-spacing: 0.05em;
 
   text-align: center;
 
   color: var(--text-header-description-color);
 
   @media screen and (min-width: 768px) {
-    font-size: 13px;
+    font-size: 18px;
   }
 
   @media screen and (min-width: 1200px) {
-    font-size: 16px;
+    font-size: 21px;
   }
 }
-
-// .header-img {
-//   width: 75px;
-
-//   transition: content var(--animation-base);
-
-//   &:hover,
-//   &:focus {
-//     content: url('../images/header/img-bird-color@2x.png');
-//     scale: 1.02;
-//   }
-
-//   @media screen and (min-width: 768px) {
-//     width: 70px;
-//   }
-
-//   @media screen and (min-width: 1200px) {
-//     width: 100px;
-//   }
-// }
 
 .header-img {
   width: 75px;
@@ -154,7 +135,6 @@
   &:hover,
   &:focus {
     content: url('../images/header/img-bird-wakeup@2x.png');
-    scale: 1.02;
   }
 
   @media screen and (min-width: 768px) {

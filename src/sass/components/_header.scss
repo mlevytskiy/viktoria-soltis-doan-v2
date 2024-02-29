@@ -129,33 +129,12 @@
   }
 }
 
-// .header-img {
-//   width: 75px;
-
-//   transition: content var(--animation-base);
-
-//   &:hover,
-//   &:focus {
-//     content: url('../images/header/img-bird-color@2x.png');
-//     scale: 1.02;
-//   }
-
-//   @media screen and (min-width: 768px) {
-//     width: 70px;
-//   }
-
-//   @media screen and (min-width: 1200px) {
-//     width: 100px;
-//   }
-// }
-
 .header-img {
   width: 75px;
 
   &:hover,
   &:focus {
     content: url('../images/header/img-bird-wakeup@2x.png');
-    // scale: 1.02;
   }
 
   @media screen and (min-width: 768px) {

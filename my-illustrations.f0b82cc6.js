@@ -1,0 +1,2 @@
+let e=()=>{let e=document.querySelector("#scrollUpProgress"),o=(document.getElementById("scrollUpProgress-value"),document.documentElement.scrollTop),n=document.documentElement.scrollHeight-document.documentElement.clientHeight,t=Math.round(100*o/n);e.style.display=o>100?"grid":"none",e.addEventListener("click",(()=>{document.documentElement.scrollTop=0})),e.style.background=`conic-gradient(#14a65a ${t}%, #a8b2e8 ${t}%)`};window.onscroll=e,window.onload=e;
+//# sourceMappingURL=my-illustrations.f0b82cc6.js.map
